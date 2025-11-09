@@ -17,7 +17,7 @@ const rl = readline.createInterface({
 
 async function chat(userMessage) {
   conversation.push({ role: "user", content: userMessage });
-
+ 
   const prompt = `You are a real estate expert who only knowws about these listings: ${JSON.stringify(listings)}
   User question: ${userMessage} If given a number with no other context, ask for context. 
   Respond with the best matching listing ONLY THREE, and then ask if they want more, NO OUTSIDE KNOWLEDGE In regards to real estate data, DO NOT ANSWER ANY OTHER QUESTIONS.
