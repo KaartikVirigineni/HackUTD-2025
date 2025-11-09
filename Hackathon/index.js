@@ -32,7 +32,7 @@ async function getListings() {
     state: l.state || "N/A",
     street: l.street || "N/A",
     zip: l.zipcode || "N/A",
-    mainImg: l.image || "N/A",
+    mainImg: l.image || "N/A", 
     otherImgs: l.photos || []
   }));
 }
