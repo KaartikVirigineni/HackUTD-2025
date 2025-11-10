@@ -6,7 +6,7 @@ const supabaseUrl = 'https://abheupvblxijzvoibmjn.supabase.co';
 const supabaseKey = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImFiaGV1cHZibHhpanp2b2libWpuIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NjI2NDE2OTIsImV4cCI6MjA3ODIxNzY5Mn0.EIROMlSeG9gu1_jfmN4GLekL1px0a9gd6yd640OPqCA';
 const supabase = createClient(supabaseUrl, supabaseKey);
 
-const ai = new GoogleGenAI({ apiKey: "AIzaSyDc-sdnVeqVMBMNNjPz71H3-n1q_YUuJ8Y" });
+const ai = new GoogleGenAI({ apiKey: "PUT GEMINI API KEY HERE" });
 
 const rl = readline.createInterface({
   input: process.stdin,
